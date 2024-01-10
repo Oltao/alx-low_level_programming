@@ -17,8 +17,11 @@ int sqrt2(int a, int b)
 	return (sqrt2(a, b + 1));
 }
 /**
- * _sqrt_recursion: return natural square root
- **/
+ * _sqrt_recursion - returns the natural square root of n
+ * @n: Number Integer
+ *
+ * Return: 1.
+ */
 int _sqrt_recursion(int n)
 {
 	return (sqrt2(n, 1));
