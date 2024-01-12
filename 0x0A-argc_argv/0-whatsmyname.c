@@ -2,7 +2,7 @@
 /**
 * main - program that print its name.
 * Return: 0.
-* @argc: Arguement count
+* @argc: Arguement count in number.
 * @argv: Arguement Value.
 */
 
