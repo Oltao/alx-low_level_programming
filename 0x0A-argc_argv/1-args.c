@@ -7,8 +7,8 @@
  * @argc: return counts parameter.
  */
 
-int main(int argc, *char argv[] __attribute__((unused)))
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-	printf("Result is = %d\n", argc);
+	printf("Result is = %d\n", argc - 1);
 	return (0);
 }
